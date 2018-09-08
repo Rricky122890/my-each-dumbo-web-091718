@@ -6,7 +6,7 @@ def collection_select(array)
    
    i += 1
   end
-  
+  array
 end
 
-collection_select([1, 3, 4, 4,]) {|i| i + 2  }
+collection_select([1, 3, 4, 4,]) {|i| puts i + 2 }
