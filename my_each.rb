@@ -9,4 +9,4 @@ def my_each(array)
   array
 end
 
-collection_select([1, 3, 4, 4,]) {|i| puts i + 2 }
+my_each([1, 3, 4, 4,]) {|i| puts i + 2 }
