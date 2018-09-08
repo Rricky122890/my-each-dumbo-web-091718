@@ -1,8 +1,8 @@
 def collection_select(array) 
   i=0 
-  while
+  while i < array.length  
    
-   yield |i|
+   yield(i) 
    
    i += 1
   end
